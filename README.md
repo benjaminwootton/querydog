@@ -1,3 +1,9 @@
-# QueryDog - Take a bite out of slow ClickHouse queries
+# Take a bite out of slow ClickHouse queries
 
-This is a simple UI tool I have developed for investigating and optimising ClickHouse queries.
+QueryDog is a simple UI tool for investigating and optimising ClickHouse queries.
+
+```
+git clone https://github.com/benjaminwootton/querydog.git
+docker build .
+docker up
+```
